@@ -97,7 +97,7 @@ void createBMP(int * array, int width, int height){
         name[6] = ((idx / 10) % 10) + '0';
         name[7] = (idx % 10) + '0';
     Bitmap map (name, width, height);
-    //idx++;
+    idx++;
     const int pix = width * height;
     struct Pix 
         clr0(0, 20, 20, 30),
