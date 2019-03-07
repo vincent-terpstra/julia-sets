@@ -1,5 +1,5 @@
 /**
- * Mandelbrot.cpp
+ * Julia.cpp
  * Vincent Terpstra
  * Feb 18 / 2019
  * Functions to display a Mandlebrot set
