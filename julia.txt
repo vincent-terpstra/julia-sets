@@ -1,0 +1,17 @@
+
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 91.82     80.04    80.04                             calcJulia(int*, int, int, float, float)
+  2.28     82.03     1.99 450000000     0.00     0.00  Bitmap::operator<<(float)
+  2.12     83.87     1.85 197791886     0.00     0.00  lerp(float, Pix&, Pix&, Bitmap&)
+  0.29     84.12     0.25                             createBMP(int*, int, int)
+  0.13     84.23     0.11      100     1.10     1.10  Bitmap::Bitmap(char const*, int, int)
+  0.00     84.23     0.00      100     0.00     0.00  generateBitmapImage(unsigned char*, int, int, char const*)
+  0.00     84.23     0.00      100     0.00     0.00  createBitmapFileHeader(int, int, int)
+  0.00     84.23     0.00      100     0.00     0.00  createBitmapInfoHeader(int, int)
+  0.00     84.23     0.00      100     0.00     0.00  Bitmap::~Bitmap()
+  0.00     84.23     0.00        1     0.00     0.00  _GLOBAL__sub_I_main
+
